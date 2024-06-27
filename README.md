@@ -1,44 +1,48 @@
-<p align="center">
-    <a href="https://github.com/sandinur157" target="_blank"><img src="https://raw.githubusercontent.com/sandinur157/tuturial-membuat-aplikasi-point-of-sales/main/public/img/logo.png" width="120"></a>
-</p>
 
-## Tentang Aplikasi
+# POS Application (Point of Sales) using Laravel
 
-Aplikasi POS atau point of sales adalah aplikasi yang digunakan untuk mengelola transaksi pada sebuah toko atau oleh kasir. Aplikasi ini dibuat menggunakan Laravel v8.* dan minimal PHP v7.4 jadi apabila pada saat proses instalasi atau penggunaan terdapat error atau bug kemungkinan karena versi dari PHP yang tidak support.
+## About the Application
 
-## Beberapa Fitur yang tersedia:
-- Manajemen Kategori Produk
-- Manajemen Produk
-  - Multiple Delete
-  - Cetak Barcode
-- Manajemen Member atau Anggota
-  - Cetak Kartu Member
-- Manajemen Supplier
-- Transaksi Pengeluaran
-- Transaksi Pembelian
-- Transaksi Penjualan
-- Laporan Pendapatan atau Laba & Rugi
-  - Bulanan
-  - Harian
-  - Custom Tanggal
-- Custom Tipe Nota
-  - Nota Besar
-  - Nota Kecil / Thermal Nota
-- Manajemen User dan Profil
-- Pengaturan Toko
-  - Identitas
-  - Upload Desain Kartu Member
-  - Setting Diskon Member
-- User (Administrator, Kasir)
-- Grafik ChartJS pada Dashboard
+The POS or Point of Sales application manages transactions in stores or by cashiers. Developed on Laravel v8.* and requiring PHP v7.4 minimum, potential errors or bugs during installation may stem from unsupported PHP versions.
 
+## Key Features
+
+- Product Category Management
+- Product Management
+  - Multiple Deletion
+  - Barcode Printing
+- Member or Customer Management
+  - Member Card Printing
+- Supplier Management
+- Expense Transactions
+- Purchase Transactions
+- Sales Transactions
+- Income or Profit & Loss Reports
+  - Monthly, Daily, Custom Dates
+- Custom Invoice Types
+  - Large Invoice
+  - Small / Thermal Invoice
+- User and Profile Management
+- Store Settings
+  - Identity
+  - Member Card Design Upload
+  - Member Discount Settings
+- User Roles (Administrator, Cashier)
+- ChartJS Graphs on Dashboard
+
+## Application Setup
+
+
+1. Run the command:
+   ```bash
+   composer update
 
 ## Setup Aplikasi
-Jalankan perintah 
+run in terminal
 ```bash
 composer update
 ```
-atau:
+or:
 ```bash
 composer install
 ```
@@ -75,7 +79,7 @@ Seeder table User, Pengaturan
 ```bash
 php artisan db:seed
 ```
-Menjalankan aplikasi
+Run Application
 ```bash
 php artisan serve
 ```
